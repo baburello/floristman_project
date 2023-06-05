@@ -8,6 +8,7 @@ import classes from "./Header.module.scss"
 import logo from '../../images/logo.png'
 import categories  from '../../routes/categories'
 
+
 const links = [
   {
   text: 'Flowers',
@@ -58,6 +59,7 @@ const Header = () => {
         </ul>
        
       </Container>
+   
     </header>
   )
 }

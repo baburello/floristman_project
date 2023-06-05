@@ -1,16 +1,17 @@
 import React from 'react'
-import Header from '../../components/Header'
-import classes from './Home.module.scss'
-import Container from '../../layout/Container'
 import Badge from '../../components/Badge'
+import CategoriesBlock from '../../components/categoriesBlock'
+import Header from '../../components/Header'
 const Home = () => {
   return (
-    <div>
+    <>
       <Header/>
-    <Container>
-      <Badge></Badge>
-    </Container>
-    </div>
+
+      <Badge/>
+      <CategoriesBlock/>
+
+    
+    </>
     
   )
 }
